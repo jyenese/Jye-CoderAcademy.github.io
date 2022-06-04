@@ -1,3 +1,8 @@
+body {
+  margin: 5px;
+  padding: 5px;
+}
+
 .next {
   background-color: #E63946;
   color: #F1FAEE;
@@ -7,20 +12,15 @@
   border-radius: 10px;
 }
 
-.next .next:hover {
-  background-color: #A8DADC;
-  color: white;
-}
-
 .homeimg {
   position: relative;
-  margin: 3%;
+  margin: 3.8%;
 }
 
 .homeinfo {
   position: absolute;
   top: 180px;
-  left: 40px;
+  left: 50px;
   font-size: 30px;
   font-family: Copperplate, Papyrus;
   color: #F1FAEE;
@@ -57,7 +57,7 @@
   color: white;
 }
 
-.footerlink {
+footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +81,6 @@
 
 .aboutinfo {
   background-color: #F1FAEE;
-  margin: 15px;
   padding: 5px;
   font-family: Copperplate, Papyrus;
   border-radius: 10px;
@@ -99,9 +98,70 @@ h1 {
 h2 {
   background-color: #E63946;
   color: #F1FAEE;
-  margin-left: 10px;
-  margin-right: 250px;
+  margin-left: 120px;
+  margin-right: 140px;
   border-radius: 10px;
   font-family: Copperplate, Papyrus;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.padding-5 {
+  padding: 5px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.hobbies1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 46%;
+  height: auto;
+}
+
+.hobbies1 img {
+  width: 100%;
+}
+
+.hobbiesinfo1 {
+  font-family: Copperplate, Papyrus;
+  background-color: #F1FAEE;
+  width: 46%;
+  border-radius: 5px;
+}
+
+.hobbiesinfo2 {
+  width: 48%;
+  font-family: Copperplate, Papyrus;
+  background-color: #F1FAEE;
+  border-radius: 5px;
+}
+
+.hobbies2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 46%;
+  height: auto;
+}
+
+.hobbies2 img {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
