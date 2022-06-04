@@ -20,8 +20,11 @@ body {
 }
 
 .homeimg {
-   position:relative;
    margin:3.8%;
+    img{
+       width: 95%;
+       height: 70%;
+   }
 }
 
 .homeinfo {
@@ -31,6 +34,7 @@ body {
     font-size: 30px;
     font-family: Copperplate, Papyrus;
     color: $color4;
+
     
 }
 
@@ -73,11 +77,17 @@ footer {
         padding: 2px;
     }
 
-.projects {
+.button {
     display:flex;
     justify-content: center;
-    background: $color3;
-    color:#f2f2f2
+    a { 
+        background: $color5;
+        color:#f2f2f2;
+        font-family: Copperplate, Papyrus;
+        text-decoration: none;
+        padding:5px;
+    }
+    
 }
 
 .aboutinfo {
@@ -144,7 +154,19 @@ img {
     display:flex;
     width: 46%;
     height: auto; 
-    img {
-        width: 100%;
+        img {
+            width: 100%;
     }
+}
+.projects {
+    background-color: $color4 ;
+    padding:5px;
+    font-family: Copperplate, Papyrus;
+    border-radius: 10px;
+}
+.projects {
+   img {
+       width:100%;
+       height:auto;
+   }
 }

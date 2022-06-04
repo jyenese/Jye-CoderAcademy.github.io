@@ -13,8 +13,12 @@ body {
 }
 
 .homeimg {
-  position: relative;
   margin: 3.8%;
+}
+
+.homeimg img {
+  width: 95%;
+  height: 70%;
 }
 
 .homeinfo {
@@ -68,15 +72,21 @@ footer {
   padding: 2px;
 }
 
-.projects {
+.button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #A8DADC;
+}
+
+.button a {
+  background: #E63946;
   color: #f2f2f2;
+  font-family: Copperplate, Papyrus;
+  text-decoration: none;
+  padding: 5px;
 }
 
 .aboutinfo {
@@ -163,5 +173,17 @@ img {
 
 .hobbies2 img {
   width: 100%;
+}
+
+.projects {
+  background-color: #F1FAEE;
+  padding: 5px;
+  font-family: Copperplate, Papyrus;
+  border-radius: 10px;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
