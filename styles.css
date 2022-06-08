@@ -17,8 +17,8 @@ body {
 }
 
 .homeimg img {
-  width: 95%;
-  height: 70%;
+  width: 41vh;
+  height: 83vh;
 }
 
 .homeinfo {
@@ -87,6 +87,7 @@ footer {
   font-family: Copperplate, Papyrus;
   text-decoration: none;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .aboutinfo {
@@ -96,21 +97,51 @@ footer {
   border-radius: 10px;
 }
 
+.display-inline {
+  display: inline;
+}
+
 h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #E63946;
   color: #F1FAEE;
-  margin-left: 90px;
-  margin-right: 120px;
-  border-radius: 10px;
+  padding: 2px;
   font-family: Copperplate, Papyrus;
+  border-radius: 10px;
 }
 
 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #E63946;
   color: #F1FAEE;
-  margin-left: 120px;
-  margin-right: 140px;
+  padding: 2px;
+  font-family: Copperplate, Papyrus;
   border-radius: 10px;
+}
+
+h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E63946;
+  color: #F1FAEE;
   font-family: Copperplate, Papyrus;
 }
 
@@ -127,6 +158,20 @@ img {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.flex-row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5vh;
 }
 
 .padding-5 {
@@ -176,14 +221,27 @@ img {
 }
 
 .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #F1FAEE;
-  padding: 5px;
+  padding: 2px;
+  margin: 2px;
   font-family: Copperplate, Papyrus;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .projects img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    padding-top: 1vw;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
