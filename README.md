@@ -14,5 +14,7 @@ The website has four main navigations in the navbar that should take you to ever
 
 ## Sitemap
 
+1. Home Tab
+    - Navigation through the navbar to one of the four pages (Home, About Me, Projects and Blog)
 
 
